@@ -1,5 +1,9 @@
 image: itxtech/docker-env-genisys
 
+before_script:
+ - git clone https://github.com/PocketMine/PreProcessor.git
+ - ls
+
 stages:
  - package
 
